@@ -13,7 +13,8 @@ import eel.firefox as ffx
 _browser_paths: Dict[str, str] = {}
 _browser_modules: Dict[str, ModuleType] = {'chrome':   chm,
                                            'electron': ele,
-                                           'edge': edge}
+                                           'edge': edge,
+                                           'firefox': ffx}
 
 
 def _build_url_from_dict(page: Dict[str, str], options: OptionsDictT) -> str:
