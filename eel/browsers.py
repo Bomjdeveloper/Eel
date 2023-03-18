@@ -7,7 +7,7 @@ from eel.types import OptionsDictT
 import eel.chrome as chm
 import eel.electron as ele
 import eel.edge as edge
-#import eel.firefox as ffx      TODO
+import eel.firefox as ffx
 #import eel.safari as saf       TODO
 
 _browser_paths: Dict[str, str] = {}
